@@ -1,6 +1,6 @@
 # HotelInventoryApp
-# Code is Implemented while learning with Angular for Beginners Course by freeCodeCamp
-# Link: https://www.youtube.com/watch?v=3qBXWUpoPHo&t=29112s
+Code is Implemented while learning with Angular for Beginners Course by freeCodeCamp
+Link: https://www.youtube.com/watch?v=3qBXWUpoPHo&t=29112s
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
