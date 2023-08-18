@@ -25,6 +25,7 @@ export class RoomsComponent implements OnInit {
       price: 500,
       checkinTime: new Date('11-Nov-2021'),
       checkoutTime: new Date('12-Nov-2021'),
+      rating: 4,
     }, {
       roomNumber: 2,
       roomType: 'Deluxe Room',
@@ -32,13 +33,15 @@ export class RoomsComponent implements OnInit {
       price: 1000,
       checkinTime: new Date('11-Nov-2021'),
       checkoutTime: new Date('12-Nov-2021'),
+      rating: 3,
     }, {
       roomNumber: 3,
-      roomType: 'private Suite',
+      roomType: 'Private Suite',
       amenities: 'Air Conditioner, Free Wi-Fi, TV, Bathroom, Kitchen',
       price: 15000,
       checkinTime: new Date('11-Nov-2021'),
       checkoutTime: new Date('12-Nov-2021'),
+      rating: 5,
     },
   ]
 
@@ -47,5 +50,9 @@ export class RoomsComponent implements OnInit {
 
   toggle() {
     this.hideRooms = !this.hideRooms;
+  }
+
+  selectRoom(room: RoomList) {
+    console.log(room);
   }
 }
